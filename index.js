@@ -3,16 +3,14 @@ function happyHolidays (String) {
  return "Happy holidays!"; 
 } 
 
-var name = "John";
-
-function happyHolidaysTo (String) {
+function happyHolidaysTo (everyone) {
   return `Happy holidays, ${name}!`;
 }
 
-function happyCustomHolidayTo (String) {
+function happyCustomHolidayTo (John) {
   return `Happy ${holiday}, ${name}!`;
 }
 
-function holidayCountdown (String) {
+function holidayCountdown (12, Christmas) {
   return `It's ${days} days until ${holiday}!`;
 }
