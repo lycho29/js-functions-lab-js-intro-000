@@ -12,3 +12,7 @@ function happyHolidaysTo (String) {
 function happyCustomHolidayTo (String) {
   return `Happy ${holiday}, ${name}!`;
 }
+
+function holidayCountdown (String) {
+  return `It's ${days} days until ${holiday}!`;
+}
